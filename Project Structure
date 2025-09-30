@@ -1,0 +1,11 @@
+resume_optimizer/
+├── app.py           # Main backend application (Flask/FastAPI)
+├── templates/
+│    └── index.html  # Frontend upload form
+├── static/
+│    └── ...         # CSS/JS files
+├── utils/
+│    ├── parser.py   # Resume and JD parsing logic
+│    ├── nlp.py      # NLP functions for keyword extraction, matching
+│    └── generator.py # Resume rewriting/generation logic
+├── requirements.txt # Dependencies
